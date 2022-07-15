@@ -1,0 +1,20 @@
+{
+  "name": "AFK Developed Project",
+  "version": "1.2.7",
+  "description": "AFK In Servers And Get Top 1 Voice.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js-v11-fixes": "^11.6.6",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.3.0",
+    "node-cmd": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bad",
+  "license": "ISC"
+}
