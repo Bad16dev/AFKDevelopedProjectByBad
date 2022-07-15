@@ -15,13 +15,13 @@ __My Discord :__ Odqin Hope.#3890 | Ho, Badro#8500
 
 # Features
 
-- Slash Commands  
-- Pause Command
-- Resume Command
-- Giveaway Active List Command
-- Role To Participate 
-- Join Server To Participate
-- Bonus Role Of Luck
+- Work 24H
+- Join Command
+- Leave Command
+- Only Id User Can User Commands
+- Can Use Commands In Dm
+- Can Join Any Channel Form Any Server
+- Can Leave Any Channel From Any Server
 - And More...
 
 # Credits
