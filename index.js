@@ -26,7 +26,7 @@ if (id.includes(message.author.id))
 {
     if(message.content.startsWith(prefix + "join")) {
   console.log("Joining..."); 
-  let hope = client.channels.get(`${args}`)
+  let hope = client.channels.get(process.env.ch_id)
   
   hope.join();
 }
@@ -39,7 +39,7 @@ client.on('message', message => {
 {
     if(message.content.startsWith(prefix + "leave")) {
   console.log("Leaving..."); 
-  let hope = client.channels.get(`${args}`)
+  let hope = client.channels.get(process.env.ch_id)
   hope.leave();
 }
 }})
