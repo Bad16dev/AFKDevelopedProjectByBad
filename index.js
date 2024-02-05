@@ -7,8 +7,8 @@ const ffmpegstatic = require('ffmpeg-static');
 const cmd = require("node-cmd");
 const client = new Discord.Client();
 const config = require('./config.json');
-const prefix = config.prefix;
-const id = config.id;
+const prefix = process.env.prefix;
+const id = vprocess.env.id;
 ///Ready
 client.on("ready", () => {
 console.log(`Log In : ${client.user.tag}..`);
